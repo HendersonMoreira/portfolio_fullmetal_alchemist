@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/reposive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <title>Fullmetal Alchemist - Brotherhood</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-full.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="index.html"><img class="logo" src="./src/imagens/logo.png" alt="logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="history.html">Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/nome.png" alt="image do titulo do filme">
+            <p class="descricao">O descaso com as leis da alquimia tomou dois dos membros de Edward Elric e deixou a
+                alma de Alphonse presa a uma armadura. Para recuperar o que perderam, os irmãos procuram a Pedra
+                Filosofal. O exército corrupto, os homúnculos, alquimistas estrangeiros... Inimigos e aliados alterarão
+                o curso dos irmãos Elric, mas nada conseguirá mudar seu propósito ou romper o elo entre os dois.</p>
+            <button id="btn" class="botao-trailer">Veja O Trailer</button>
+        </div>
+        <img class="rick" src="./src/imagens/eurick.png" alt="image do eurick">
+
+        <div class="modal" id="modal">
+            <div class="conteudo-modal" id="container">
+                <span class="fecha-modal">&#215;</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/V77jRpLw4To"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen ></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> feito Em &copy;
+            <script>document.write(new Date().getFullYear());</script> Por Henderson Dos Santos Daniel Moreira <i class="bi bi-balloon-heart"></i>
+        </p>
+    </footer>
+</body>
+<script src="src/js/script.js"></script>
+</html>

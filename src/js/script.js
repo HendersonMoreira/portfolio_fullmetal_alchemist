@@ -41,3 +41,4 @@ botaoFechaModal.addEventListener('click', () => {
   alteraModal();
   video.setAttribute("src", "");
 });
+

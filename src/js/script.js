@@ -23,7 +23,7 @@ document.addEventListener('click', function (e) {
 const botaoTrailer = document.querySelector(".botao-trailer");
 const mode = document.querySelector(".modal");
 const video = document.getElementById("video");
-const link = video.src;
+const link = video.src
 const botaoFechaModal = document.querySelector(".fecha-modal");
 
 //parte de abrir o trailer e coloca de volta o link do video
@@ -41,4 +41,3 @@ botaoFechaModal.addEventListener('click', () => {
   alteraModal();
   video.setAttribute("src", "");
 });
-
